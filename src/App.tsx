@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function App() {
   return (
-    <div className="grid place-items-center h-screen">
+    <div className="grid place-items-center h-screen p-5">
       <motion.a
         href="https://github.com/PeterHueer/framer-motion-test"
         className="uppercase hover:text-white rounded bg-secondary p-1 pr-2 pl-2 text-white m-5"
@@ -15,7 +15,7 @@ export default function App() {
       </motion.a>
       <div className="w-full max-w-screen-xl text-white">
         <motion.div
-          className="grid grid-cols-3 gap-5"
+          className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
           variants={{
             show: {
               transition: {
